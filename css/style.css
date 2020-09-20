@@ -231,11 +231,30 @@ a:hover {
   transition: all 500ms ease;
 }
 
+@media(max-width:480px){
+  .socials .ico-circle {
+    height: 55px;
+    width: 55px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+   
+    transition: all 500ms ease;
+  }
+}
+
 .socials .ico-circle:hover {
   
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
+}
+
+@media(max-width: 480px){
+  .work-mob{
+    padding-top: 0px !important;
+  }
 }
 
 /*------/ Ul resect /------*/
