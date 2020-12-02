@@ -117,6 +117,13 @@ a:hover {
 .table-cell {
   display: table-cell;
   vertical-align: middle;
+  padding-top: 40px;
+}
+
+@media(max-width: 600px){
+  .table-cell{
+    padding-top: 50px;
+  }
 }
 
 /*--/ Sections /--*/
@@ -636,6 +643,12 @@ a:hover {
   color: #fff;
 }
 
+@media(max-width: 560px){
+  .intro{
+    height: 670px;
+  }
+}
+
 .intro .intro-content {
   text-align: center;
   position: absolute;
@@ -706,6 +719,12 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.about-info{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
@@ -730,6 +749,13 @@ a:hover {
   background-color: #0078ff;
 }
 
+.lead{
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1B1B1B;
+}
+
 /*======================================
 //--//-->   SERVICES
 ======================================*/
@@ -739,7 +765,17 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 280px;
+  width:280.6px;
 }
+
+@media(max-width: 560px){
+  .service-box{
+    text-align: center;
+  }
+}
+
+
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -751,6 +787,12 @@ a:hover {
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+  text-align: center;
+}
+
+.img-dim{
+  width: 150px;
+  height: 150px;
 }
 
 .service-box .ico-circle {
@@ -803,6 +845,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 1rem;
 }
 
 .work-box:hover img {
@@ -826,10 +869,20 @@ a:hover {
 .work-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
+  width: 280px;
 }
 
 .work-content .w-more .w-ctegory {
   color: #0078ff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.w-date{
+  color: #1B1B1B;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .work-content .w-like {
@@ -848,6 +901,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  width: 280px;
 }
 
 /*======================================
